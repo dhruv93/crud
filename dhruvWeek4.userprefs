@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{3FA58D17-35BB-42A1-BC1A-59ACE86D78E4}|Default">
+  <MonoDevelop.Ide.ItemProperties.dhruvWeek4.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3389B977-A623-4AC4-9237-FB4043DA260B" />
+  <MonoDevelop.Ide.ItemProperties.dhruvWeek4.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="dhruvWeek4/ItemDatabase.cs">
+    <Files>
+      <File FileName="dhruvWeek4/App.xaml.cs" Line="23" Column="18" />
+      <File FileName="dhruvWeek4/Item.cs" Line="25" Column="10" />
+      <File FileName="dhruvWeek4/ItemDatabase.cs" Line="32" Column="4" />
+      <File FileName="dhruvWeek4/ItemPage.xaml" Line="22" Column="1" />
+      <File FileName="dhruvWeek4/ItemPage.xaml.cs" Line="26" Column="9" />
+      <File FileName="dhruvWeek4/ItemsListPage.xaml" Line="13" Column="1" />
+      <File FileName="dhruvWeek4/ItemsListPage.xaml.cs" Line="13" Column="18" />
+      <File FileName="dhruvWeek4/MainPage.xaml" Line="12" Column="1" />
+      <File FileName="dhruvWeek4/MainPage.xaml.cs" Line="34" Column="1" />
+      <File FileName="dhruvWeek4/App.xaml" Line="7" Column="1" />
+      <File FileName="iOS/LocalFileHelper.cs" Line="24" Column="1" />
+      <File FileName="iOS/Main.cs" Line="21" Column="1" />
+      <File FileName="Droid/LocalFileHelper.cs" Line="5" Column="25" />
+      <File FileName="dhruvWeek4/ILocalFileHelper.cs" Line="9" Column="1" />
+      <File FileName="dhruvWeek4/ReadItems.xaml" Line="22" Column="1" />
+      <File FileName="dhruvWeek4/ReadItems.xaml.cs" Line="16" Column="1" />
+      <File FileName="dhruvWeek4/UpdateItems.xaml" Line="24" Column="1" />
+      <File FileName="dhruvWeek4/UpdateItems.xaml.cs" Line="24" Column="6" />
+      <File FileName="dhruvWeek4/UpdateItemsPage.xaml" Line="14" Column="1" />
+      <File FileName="dhruvWeek4/UpdateItemsPage.xaml.cs" Line="13" Column="35" />
+      <File FileName="dhruvWeek4/DeleteItems.xaml" Line="24" Column="1" />
+      <File FileName="dhruvWeek4/DeleteItems.xaml.cs" Line="25" Column="3" />
+      <File FileName="dhruvWeek4/DeleteItemsPage.xaml" Line="13" Column="1" />
+      <File FileName="dhruvWeek4/DeleteItemsPage.xaml.cs" Line="30" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
