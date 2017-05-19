@@ -6,6 +6,8 @@
             <Button Text="READ" Clicked="Read_Clicked" />
 			<Button Text="UPDATE" Clicked="Update_Clicked" />
 			<Button Text="DELETE" Clicked="Delete_Clicked" />
+            <Button Text="Post Request" Clicked="Post_Clicked" />
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

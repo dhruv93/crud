@@ -101,6 +101,7 @@ class MonoPackageManager_Resources {
 		"dhruvWeek4.Droid.dll",
 		"dhruvWeek4.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
 		"SQLite-net.dll",
 		"SQLitePCLRaw.batteries_green.dll",
 		"SQLitePCLRaw.batteries_v2.dll",
@@ -130,5 +131,5 @@ class MonoPackageManager_Resources {
 	};
 	public static final String[] Dependencies = new String[]{
 	};
-	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_25";
+	public static final String ApiPackageName = null;
 }

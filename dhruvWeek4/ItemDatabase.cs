@@ -32,5 +32,18 @@ namespace dhruvWeek4
 		{
 			return database.DeleteAsync(item);
 		}
-	}
+
+        public Task<int> PopulateDB(List<Item> items)
+        {
+            database.DropTableAsync<Item>().Wait(); ;
+            database.CreateTableAsync<Item>().Wait();
+            Task<int> inserted = null;
+            foreach (var item in items)
+            {
+                inserted = database.InsertAsync(item);
+            }
+
+            return inserted;
+        }
+    }
 }

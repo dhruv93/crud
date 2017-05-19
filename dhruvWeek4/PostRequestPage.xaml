@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="dhruvWeek4.PostRequestPage">
+    <StackLayout Padding="10" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Label Text="Random" Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center"></Label>
+            <Entry Text="{Binding random}" Grid.Row="0" Grid.Column="1" />
+            <Label Text="CharacterType" Grid.Row="1" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center"></Label>
+            <Entry Text="{Binding charactertype}" Grid.Row="1" Grid.Column="1" />
+            <Label Text=" CharacterLevel" Grid.Row="2" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center"></Label>
+            <Entry Text="{Binding characterlevel}" Grid.Row="2" Grid.Column="1" />
+        </Grid>
+        <Button Text="Search Items" HorizontalOptions="FillAndExpand" BackgroundColor="Blue" TextColor="White" Clicked="Handle_Clicked" />
+    </StackLayout>
+</ContentPage>

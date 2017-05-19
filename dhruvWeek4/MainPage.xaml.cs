@@ -29,5 +29,10 @@ namespace dhruvWeek4
 		{
 			await Navigation.PushAsync(new DeleteItemsPage() );
 		}
-	}
+        async void Post_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new PostRequestPage() { BindingContext = new ItemPostRequest() });
+        }
+
+    }
 }
